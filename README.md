@@ -10,6 +10,6 @@ More specifically, the code first defines a message signal consisting of 0's and
 
 The code then defines a matched filter and uses it to filter the noisy PSK signal. The filtered signal is then decoded by comparing its maximum values with the carrier signal. The original message signal is then printed along with the decoded message signal, which is obtained after thresholding the filtered signal. Finally, the code plots the original message signal, carrier signal, PSK-encoded signal, noisy signal, filtered signal, and decoded signal.
 #
-**Note: This repository will be extended, if I can find enough time, to incorporate different adaptive algorithms and their detailed comparison.**
+**Note: This repository will be extended, if I can find enough time, to incorporate different adaptive algorithms and fixed filters with their detailed comparisons.**
 
 The latest update has been made on 14.04.2023
