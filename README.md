@@ -9,7 +9,7 @@ One of the fixed-filters is implemented in 'PSK_encoder_matched_filter_decoder.i
 More specifically, the code first defines a message signal consisting of 0's and 1's, and a carrier signal with a sampling rate of 192 kHz and a frequency of 32 kHz. It then encodes the message signal using PSK modulation and creates a PSK signal. The PSK signal is then corrupted with noise generated from a normal distribution.
 
 The code then defines a matched filter and uses it to filter the noisy PSK signal. The filtered signal is then decoded by comparing its maximum values with the carrier signal. The original message signal is then printed along with the decoded message signal, which is obtained after thresholding the filtered signal. Finally, the code plots the original message signal, carrier signal, PSK-encoded signal, noisy signal, filtered signal, and decoded signal.
-
+#
 **Note: This repository will be extended, if I can find enough time, to incorporate different adaptive algorithms and their detailed comparison.**
 
 The latest update has been made on 14.04.2023
